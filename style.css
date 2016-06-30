@@ -1,84 +1,127 @@
 /*###############################################################################*/
 /*###############################mobile size#####################################*/
 /*###############################################################################*/
-body{
-  font-family: Arial;
-}
+  body{
+    font-family: Arial;
+  }
 
-section{
-  text-align: center;
-  width: 100%
-
-}
-a {
-  text-decoration: none;
-}
-
-table{
+  section{
     text-align: center;
-  width: 100%
-}
-tr{
-  display: inline-block;
+    width: 100%
+
   }
-.google{
-  width: 18%;
-}
+  a {
+    text-decoration: none;
+  }
 
-.back{
-  margin: 35px;
-  /*margin-top: 40%;*/
-}
-
-.onglet{
-  border-style: hidden;
-  border-radius: 200%;
-  background-color: #E8630F;
-  color: #F0F0F0;
-  font-size: 25px;
-}
-
-footer{
-  /*border: 1px solid black;*/
-  padding-top: 30%;
-  margin-top: 0%;
-}
-
-.barre{
-  border: 1px solid;
-  height: 22px;
-  bottom: auto;
-  width: 40%;
-}
-
-.pos {
-  display: inline;
-  visibility: hidden;
-}
-
-.texte{
-  color: black;
-}
-
-.position{
-  border-style: solid;
-  border-color: #9CA3A3;
-  background-color: #9CA3A3;
-  text-align: center;
-  width: 100%;
-
-}
-
-span{
-  color: blue;
-}
-ul
-{
-    list-style-type: none;
+  table{
+      text-align: center;
+    width: 100%
+  }
+  tr{
     display: inline-block;
+    }
+  .google{
+    width: 18%;
   }
 
-li{
-  text-align: center;
-  width: 140%
+  .back{
+    margin: 35px;
+    /*margin-top: 40%;*/
+  }
+
+  .onglet{
+    border-style: hidden;
+    border-radius: 200%;
+    background-color: #E8630F;
+    color: #F0F0F0;
+    font-size: 25px;
+  }
+
+  footer{
+    /*border: 1px solid black;*/
+    padding-top: 27%;
+  }
+
+  .barre{
+    border: 1px solid;
+    height: 22px;
+    bottom: auto;
+    width: 40%;
+  }
+
+  .pos {
+    display: inline;
+    visibility: hidden;
+  }
+
+  .texte{
+    color: black;
+  }
+
+  .position{
+    border-style: solid;
+    border-color: #9CA3A3;
+    background-color: #9CA3A3;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  span{
+    color: blue;
+  }
+
+  .footercmpl{
+    border-style: solid;
+    border-color: #9CA3A3;
+    background-color: #9CA3A3;
+    text-align: center;
+    }
+  ul
+  {
+      list-style-type: none;
+      display: inline-block;
+    }
+
+  li{
+    text-align: center;
+    width: 140%
+    }
+
+
+/*################################################################################*/
+/*##############################desktop###########################################*/
+/*################################################################################*/
+
+@media screen and (min-width: 650px) {
+
+  .pos{
+    visibility: visible;
+    border: 1px hidden;
+    background-color: #AEB8D4;
+    color: #7A7A94;
+  }
+
+  .position{
+    visibility: hidden;
+  }
+
+  table{
+    text-align: right;
+  }
+
+  footer{
+    margin-bottom: 0%;
+
+  }
+
+  li{
+    text-align:left;
+  }
+
+  .footercmpl{
+    text-align: right;
+      }
+
 }
