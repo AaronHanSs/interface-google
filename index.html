@@ -30,12 +30,25 @@
 
     <!-- begin section -->
       <section>
-        <center>
-          <img src="Images_google/google.jpg" class="google"/>
-          <p class="barre"> Recherche google ... </p>
-          <p class="pos"> Recherche Google </p>
-          <p class="pos"> J'ai de la chance </p>
-        </center>
+
+        <img src="Images_google/google.jpg" class="img"/>
+
+        <!-- google search -->
+        <form method="post" action="http://google.com/search">
+
+          <input type="text" name="q" placeholder="recherche google" class="barre">
+
+            <div>
+
+              <input class="button" type="submit" value="Recherche Google..."/>
+
+              <input class="button" type="submit" value="J'ai de la chance"/>
+
+            </div>
+
+        </form>
+
+
       </section>
     <!-- end section   -->
 
